@@ -265,23 +265,5 @@ namespace Elevator
         {
             tMessage.Text += "\r\n Диспетчер не отвечает";
         }
-
-        // =================================================================================================================================
-        // =                                                         ОСТАЛЬНЫЕ МЕТОДЫ                                                      =
-        // =================================================================================================================================
-        
-        /*
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e) // Эффект печати текста
-        {
-            string TypeWriting = "1234567890";
-
-            for (int i = 0; i < TypeWriting.Length; i++)
-            {
-                Invoke(new MethodInvoker(delegate { tMessage.AppendText(TypeWriting[i].ToString()); }));
-                System.Threading.Thread.Sleep(50);
-
-            }
-        }
-        */
     }
 }
